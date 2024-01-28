@@ -1,0 +1,27 @@
+{
+  "name": "@cinnabar-forge/utils",
+  "version": "0.0.0",
+  "repository": "github:cinnabar-forge/node-utils",
+  "license": "ISC",
+  "author": {
+    "name": "Timur Moziev",
+    "email": "timur.moziev@gmail.com",
+    "url": "https://timurrin.github.io"
+  },
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "version.json"
+  ],
+  "scripts": {
+    "declare-types": "tsc -d --allowJs --emitDeclarationOnly index.js",
+    "lint": "npx eslint --fix --ext .js,.json ."
+  },
+  "devDependencies": {
+    "@cinnabar-forge/eslint-plugin": "^0.2.1",
+    "eslint-plugin-jsdoc": "48.0.2"
+  }
+}

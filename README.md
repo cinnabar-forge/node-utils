@@ -5,10 +5,12 @@ Common functions that used by a wide range of Cinnabar Forge projects
 ## Getting Started
 
 ```bash
-npm i --save-dev @cinnabar-forge/utils
+npm i @cinnabar-forge/utils
 ```
 
-```TODO```
+### Usage
+
+`TODO`
 
 ## Changelog
 

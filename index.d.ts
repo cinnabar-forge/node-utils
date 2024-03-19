@@ -3,4 +3,7 @@
  * @param {number} port Server port number
  * @returns {string[]} Array of pretty-printed network addresses
  */
-export function getNetworkAddressesList(prefix: "http" | "https", port: number): string[];
+export function getNetworkAddressesList(
+  prefix: "http" | "https",
+  port: number,
+): string[];

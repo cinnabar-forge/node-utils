@@ -18,10 +18,11 @@
   ],
   "scripts": {
     "declare-types": "tsc -d --allowJs --emitDeclarationOnly index.js",
-    "lint": "npx eslint --fix --ext .js,.json ."
+    "format": "npx prettier . --write",
+    "lint": "npx eslint --fix --ext .js,.json .",
+    "verify": "npm run lint && npm run format"
   },
   "devDependencies": {
-    "@cinnabar-forge/eslint-plugin": "^0.2.1",
-    "eslint-plugin-jsdoc": "48.0.2"
+    "@cinnabar-forge/eslint-plugin": "0.4.0"
   }
 }

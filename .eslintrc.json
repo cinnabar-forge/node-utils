@@ -1,13 +1,7 @@
 {
-  "extends": [
-    "plugin:@cinnabar-forge/default",
-    "plugin:jsdoc/recommended"
-  ],
+  "extends": ["plugin:@cinnabar-forge/default"],
   "parserOptions": {
     "sourceType": "module"
   },
-  "plugins": [
-    "@cinnabar-forge",
-    "jsdoc"
-  ]
+  "plugins": ["@cinnabar-forge"]
 }

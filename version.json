@@ -3,8 +3,8 @@
   "package": "@cinnabar-forge/utils",
   "name": "Cinnabar Forge Utils",
   "major": 0,
-  "minor": 1,
+  "minor": 2,
   "patch": 0,
-  "revision": 1,
-  "timestamp": 1706459001
+  "revision": 2,
+  "timestamp": 1710852708
 }
